@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header, body, navbar */
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 4%;
+    background-color: #b1a500;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #3a3a3d;
+}
+
+h1 {
+    color: #fff;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.nav__links {
+    list-style: none;
+    display: flex;
+}
+
+.nav__links a,
+.search {
+
+    font-weight: 500;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+.nav__links li {
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.5 ease 5s;
+}
+
+.nav__links li a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.search {
+    display: flex;
+    overflow: hidden;
+    border-radius: 50px;
+    margin: -15px 20px 0 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-search {
+    background-color: rgb(0, 0, 0);
+    width: 110px;
+    color: #edf0f1;
+    border: none;
+    border-radius: 0 50px 50px 0px;
+    transition: all 0.5 ease 5s;
+}
+
+.btn-search:hover {
+    border-radius: 0 50px 50px 0px;
+    color: #edf0f1;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* View */
+
+section h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #edf0f1;
+    margin: 1rem auto;
+}
+
+section form .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #edf0f1;
+    font-size: 18px;
+
+}
+
+.col-sm-2 .btn {
+    margin: 1.5rem 0;
+    border-radius: 50px;
+    background-color:#8a8100 ;
+    border: none;
+    font-size: 20px;
+}
+
+.success-eidt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 0 10px 0;
+    border-bottom: 5px solid #8a8100;
+    width: 250px;
+}
+
+.form-control{
+    color: #000000;
+}
